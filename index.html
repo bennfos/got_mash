@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>  
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+
+  <title>GOT MASH</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
+</head>
+<body>
+  
+  <h1><p class="description">Game of Thrones MASH</p></h1>
+
+  <h1 class="logo"><img src="img/throne" /></h1>
+  <p class="description">FILL IN THE BLANKS AND CLAIM THE THRONE</p>
+
+<form action="" method="post" id="mash">
+
+<div id="answers" class="hide">
+  <p>To claim the throne for House <span id="home"></span>, you shall wed <span id="name"></span>, and kill <span id="dead"></span> in battle, with the aid of your trusty <span id="pet"></span>.
+ </div>
+  
+<div class="bucket">
+
+ <div class="choice-bucket">
+   <h4 class="highlight">Whom shall you wed?</h4>
+    <input name="name[]" type="text">
+    <input name="name[]" type="text">
+    <input name="name[]" type="text">
+    <input name="name[]" type="text">
+  </div>
+
+  <div class="choice-bucket">
+    <h4 class="highlight">Whom shall you kill in battle?</h4>
+     <input name="dead[]" type="text">
+     <input name="dead[]" type="text">
+     <input name="dead[]" type="text">
+     <input name="dead[]" type="text">
+   </div>
+
+ <div class="choice-bucket">
+    <h4 class="highlight">What noble beast shall aid you?</h4>
+     <input name="pet[]" type="text">
+     <input name="pet[]" type="text">
+     <input name="pet[]" type="text">
+     <input name="pet[]" type="text">
+   </div>
+
+</div>
+
+ <input type="submit" value="Claim the throne">
+</form>  
+<script src="script.js"></script>
+</body>
+</html>
